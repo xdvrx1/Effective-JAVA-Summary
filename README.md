@@ -1672,7 +1672,7 @@ Use it, if multiple enum constants share common behaviors.
 		private enum PayType{
 			WEEKDAY{
 				double overtimePay(double hours, double payRate) { return ...}
-			};
+			},
 			WEEKEND{
 				double overtimePay(double hours, double payRate) { return ...}
 			};
